@@ -1,0 +1,139 @@
+.date {
+    margin-bottom: 0px;
+}
+
+* {
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+}
+
+button {
+    width: 160px;
+
+    font-family: 'Times New Roman', Times, serif;
+        color:brown;
+        background: transparent;
+        border: none;
+        font-size: 30px;
+        position: relative;
+        height: 40px;
+}
+
+span {
+    display: inline;
+    width: 30px;
+}
+.temp {
+    margin-top: 5px;
+}
+
+.card {
+        background-color:rgba(255, 255, 255, 0.349);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: fixed;
+        border-radius: 20px;
+}
+
+.temp-div {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.name {
+    font-size: 42px;
+        color: orange;
+}
+
+.temp {
+    font-size: 52px;
+    color: goldenrod;
+  letter-spacing: 3px;
+}
+
+.date {
+    color: darkblue;
+    margin-top: -20px;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 32px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+body {
+    background: url("/images/hazy.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+}
+
+input::placeholder {
+    color: rgb(76, 221, 237);
+    font-size: 23px;
+    position: relative;
+    left: 5px;
+}
+
+.city-details {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 3px;
+     border-radius: 10px;
+}
+
+.city-details {
+    background-color: rgba(255, 255, 255, 0.804);
+}
+
+input {
+    width: 330px;
+}
+
+#crt_temp {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.tempminandmax {
+    margin-top: 2px;
+    font-size: 32px;
+    color: palevioletred;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h3{
+    text-align:center ;
+    color: black;
+}
+
+h5{
+    text-align: center;
+    color: black;
+}
